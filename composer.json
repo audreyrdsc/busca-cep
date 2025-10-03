@@ -1,0 +1,23 @@
+{
+    "name": "audreyrdsc/php-cep",
+    "description": "Busca de cep on line",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"     
+        },    
+        "psr-4": {
+            "Audreyrdsc\\PhpCep\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "audreyrdsc",
+            "email": "audreyrdsc@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    }
+}

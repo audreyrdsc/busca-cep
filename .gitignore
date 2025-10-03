@@ -1,0 +1,47 @@
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Composer
+/vendor/
+/composer.lock
+
+# Ambiente do Laravel
+/.env
+/.env.*.backup
+/.env.local
+/.env.testing
+/.env.production
+
+# Cache do Laravel
+/bootstrap/cache/*
+!bootstrap/cache/.gitignore
+
+# Logs
+/storage/*.key
+/storage/app/public
+/storage/debugbar
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/storage/logs/*
+!storage/app/.gitignore
+!storage/framework/.gitignore
+!storage/logs/.gitignore
+
+# IDEs e Editores
+.idea
+.vscode
+*.swp
+*.swo
+
+# Node
+/node_modules/
+/npm-debug.log
+yarn-error.log
+
+# Build do Vite / Mix
+/public/hot
+/public/storage
+/public/build
