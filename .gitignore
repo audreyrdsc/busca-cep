@@ -4,7 +4,7 @@ Thumbs.db
 
 # Composer
 /vendor/
-/composer.lock
+#/composer.lock
 
 # Ambiente do Laravel
 /.env
